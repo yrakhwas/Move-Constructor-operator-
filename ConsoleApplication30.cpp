@@ -183,6 +183,24 @@ Library TestLibrary(Library lib)//copy ctor
 
 int main()
 {
+    string name(8, 'a');
+    cout << name << endl;
+
+    string s1;
+    string s2;
+    string s3;
+
+    s1 = {"hello" };
+   //getline(cin, s2);
+    cin >> s2;
+   cout << s2;
+   string text
+   { R"(Name:   "Tom"
+Age:    38)" };
+   std::cout << text << endl;
+
+
+
     Book b1;
     Book b2("C++ for Proffessianal","Steven Prata",2012,1340,Genres::Programming);
     Book b3("Dead souls","Nikolay Gogol", 1842,154, Political);
